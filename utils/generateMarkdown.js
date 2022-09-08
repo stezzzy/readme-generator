@@ -66,46 +66,46 @@ function generateMarkdown(data) {
 # ${data.name} 
 
 ## Table of Contents 🔍
-* [Description](#description)
-* [Usage](#usage)
-* [Dependencies](#dependencies)
-* [Tests](#tests)
-* [Contributions](#contributions)
-* [Contact Me](#contact)
-* [License](#license)
+* [Description](#description-🗒️)
+* [Usage](#usage-🔼)
+* [Installation](#installation-✅)
+* [Tests](#tests-✴️)
+* [Contributions](#contributions-👐)
+* [Contact Me](#contact-me-💌)
+* [License](#license-🌍)
 
-## Description 🗒️ <a name="description"></a>
+## Description 🗒️
 
 ${data.description}
 
-## Usage 🔼 <a name="usage"></a>
+## Usage 🔼
 
 To use ${data.name}: ${data.usage}
 
-## Dependencies ✅ <a name="dependencies"></a>
+## Installation ✅
 
-You must run 
+To install the correct dependencies for ${data.title} to work, you must run:
 ~~~
 ${data.dependencies}
 ~~~
- for ${data.title} to work
+ 
 
-## Tests ✴️ <a name="tests"></a>
+## Tests ✴️
 
 To run tests: 
 ~~~
 ${data.tests}
 ~~~
 
-## Contributions 👐 <a name="contributions"></a>
+## Contributions 👐
 
 To make contributions to ${data.title}, ${data.contribution}
 
-## Contact Me 💌 <a name="contact"></a>
+## Questions 💌
 * If you have any questions please [**email**](mailto:${data.email}) me
 * Check out more of my work on [**GitHub**](${data.username})
 
-# License 🌍 <a name="license"></a>
+# License 🌍
 
 ${renderLicenseSection(data.license)}
 
