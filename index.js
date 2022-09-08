@@ -23,9 +23,21 @@ const promptUser = () => {
 
 // TODO: Create an array of questions for user input
 const questions = [
-  { type: "input", message: "What is your GitHub username?", name: "username" },
-  { type: "input", message: "What is your email address?", name: "email" },
-  { type: "input", message: "What is your project's name?", name: "name" },
+  {
+    type: "input",
+    message: "What is your GitHub username?",
+    name: "username",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "What is your project's name?",
+    name: "name",
+  },
   {
     type: "input",
     message: "Please write a short description of your project",
@@ -34,7 +46,7 @@ const questions = [
   {
     type: "list",
     message: "What kind of License should your project have?",
-    choices: ["Apache", "CC", "GPLv3", "GPLv2", "ISC", "MIT", "WTFPL", "None"],
+    choices: ["Apache", "MIT", "GPLv3", "GPLv2", "CC", "None"],
     name: "license",
   },
   {
@@ -79,15 +91,13 @@ function writeFile(fileName, data, err) {
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((response => {
+  inquirer.prompt(questions).then((response) => {
     writeFile("README.md", generateMarkdown({ ...response }), (err) => {
-        if (err) throw err;
-        console.log("success");
-      });
-  }));
+      if (err) throw err;
+      console.log("success");
+    });
+  });
 }
-
-
 
 // function writeFile(fileName, data) {
 //     fs.writeFile(fileName, data, (err) => {
