@@ -1,6 +1,6 @@
 
   
-# y 
+# Awesome project 
 
 ## Table of Contents 🔍
 * [Description](#description-🗒️)
@@ -8,44 +8,44 @@
 * [Installation](#installation-✅)
 * [Tests](#tests-✴️)
 * [Contributions](#contributions-👐)
-* [Contact Me](#contact-me-💌)
+* [Questions](#questions-💌)
 * [License](#license-🌍)
 
 ## Description 🗒️
 
-y
+This project is pretty darn awesome!
 
 ## Usage 🔼
 
-To use y: y
+To use Awesome project: They need to know how to use the repo!
 
 ## Installation ✅
 
-You must run 
+To install the correct dependencies for Awesome project to work, you must run:
 ~~~
-y
+npm install
 ~~~
- to install the correct dependencies for undefined to work
+ 
 
 ## Tests ✴️
 
 To run tests: 
 ~~~
-y
+node index.js
 ~~~
 
 ## Contributions 👐
 
-To make contributions to undefined, y
+To make contributions to Awesome project, They need to know how to contribute to the repo!
 
 ## Questions 💌
-* If you have any questions please [**email**](mailto:y) me
-* Check out more of my work on [**GitHub**](y)
+* If you have any questions please [**email**](mailto:nick@nick.com) me
+* Check out more of my work on [**GitHub**](stezzzy)
 
 # License 🌍
 
-Apache [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+GPLv3 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This project is being licensed under the Apache license: https://www.apache.org/licenses/LICENSE-2.0
+This project is being licensed under the GPLv3 license: https://www.gnu.org/licenses/gpl-3.0.en.html
     
 

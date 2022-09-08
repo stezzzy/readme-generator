@@ -71,7 +71,7 @@ function generateMarkdown(data) {
 * [Installation](#installation-✅)
 * [Tests](#tests-✴️)
 * [Contributions](#contributions-👐)
-* [Contact Me](#contact-me-💌)
+* [Questions](#questions-💌)
 * [License](#license-🌍)
 
 ## Description 🗒️
@@ -84,7 +84,7 @@ To use ${data.name}: ${data.usage}
 
 ## Installation ✅
 
-To install the correct dependencies for ${data.title} to work, you must run:
+To install the correct dependencies for ${data.name} to work, you must run:
 ~~~
 ${data.dependencies}
 ~~~
@@ -99,7 +99,7 @@ ${data.tests}
 
 ## Contributions 👐
 
-To make contributions to ${data.title}, ${data.contribution}
+To make contributions to ${data.name}, ${data.contribution}
 
 ## Questions 💌
 * If you have any questions please [**email**](mailto:${data.email}) me
