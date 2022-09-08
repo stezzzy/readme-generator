@@ -1,6 +1,6 @@
 
   
-# Awesome project 
+# README-Generator
 
 ## Table of Contents 🔍
 * [Description](#description-🗒️)
@@ -13,34 +13,43 @@
 
 ## Description 🗒️
 
-This project is pretty darn awesome!
+This project allows the user to create a high quality and stylish readme file using the inquiry package with node to answer some prompts.
 
 ## Usage 🔼
 
-To use Awesome project: They need to know how to use the repo!
+To use: Once you have followed the installation instructions, please run:
+~~~
+node.index
+~~~
+After running node.index, fill out your answers to the prompts that will be given to you and once you are done it will automatically generate the README.md file for you within your folder!
 
 ## Installation ✅
 
-To install the correct dependencies for Awesome project to work, you must run:
+To install the correct dependencies for the readme generator to work, you must run:
 ~~~
 npm install
 ~~~
  
-
 ## Tests ✴️
 
-To run tests: 
+To run tests run the command: 
 ~~~
 node index.js
 ~~~
 
 ## Contributions 👐
 
-To make contributions to Awesome project, They need to know how to contribute to the repo!
+To make contributions to README-Generator, create a new branch and make a pull request on this repository with your contributed work!
 
 ## Questions 💌
 * If you have any questions please [**email**](mailto:nick@nick.com) me
-* Check out more of my work on [**GitHub**](stezzzy)
+* Check out more of my work on [**GitHub**](https://github.com/stezzzy)
+
+## Live Demo *
+Click the image to view the demo video!
+
+![demo](https://user-images.githubusercontent.com/90112060/189245517-5d6ef1b8-368e-4853-a97e-19c484e1aab6.png)(https://www.youtube.com/watch?v=V-QQhrtuQJg)
+
 
 # License 🌍
 
