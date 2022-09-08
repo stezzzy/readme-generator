@@ -56,7 +56,7 @@ const questions = [
   },
 ];
 
-console.log(questions);
+// console.log(questions);
 
 // TODO: Create a function to write README file
 
