@@ -4,23 +4,6 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 const path = require("path");
 
-// const getGithubUser = async (username) => {
-//     try {
-//         let response = await fetch("https://api.github.com/user/" + username);
-//         let body = await response.json();
-//         console.log(body)
-//         return body.login
-
-//          } catch (error)
-//     {
-//         console.log("error")
-//      }
-//     }
-
-const promptUser = () => {
-  return inquirer.prompt(questions);
-};
-
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -59,6 +42,7 @@ const questions = [
     type: "input",
     message: "What command should be run to run tests?",
     name: "tests",
+    default: "node index.js"
   },
   {
     type: "input",
@@ -71,15 +55,6 @@ const questions = [
     name: "contribution",
   },
 ];
-// getGithubUser(questions.username);
-// .then((response) =>
-//     {
-//         console.log(JSON.stringify(response, null, 2));
-//         writeFile(JSON.stringify(response, null, 2));
-
-//         // return fs.writeFile(`README.md`, JSON.stringify(response), err => err ? console.log(err) : console.log("Success!"))
-//     }
-// )
 
 console.log(questions);
 
@@ -99,20 +74,4 @@ function init() {
   });
 }
 
-// function writeFile(fileName, data) {
-//     fs.writeFile(fileName, data, (err) => {
-//          if(err)
-//          throw err
-//          console.log("success")})
-// }
-
-// function init() {
-//     inquirer.prompt(questions)
-//     .then(function (response) {
-//         console.log(JSON.stringify(response, null, 2));
-//         writeFile("README.md", generateMarkdown, JSON.stringify(response, null, 2))
-//     })
-// }
-
-// Function call to initialize app
 init();

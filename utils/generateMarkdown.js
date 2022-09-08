@@ -80,15 +80,22 @@ ${data.description}
 
 ## Usage 🔼 <a name="usage"></a>
 
-To use ${data.title}: ${data.usage}
+To use ${data.name}: ${data.usage}
 
 ## Dependencies ✅ <a name="dependencies"></a>
 
-You must run ${data.dependencies} for ${data.title} to work
+You must run 
+~~~
+${data.dependencies}
+~~~
+ for ${data.title} to work
 
 ## Tests ✴️ <a name="tests"></a>
 
-To run tests: ${data.tests}
+To run tests: 
+~~~
+${data.tests}
+~~~
 
 ## Contributions 👐 <a name="contributions"></a>
 

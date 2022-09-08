@@ -1,6 +1,6 @@
 
   
-# nicks project 
+# yes 
 
 ## Table of Contents 🔍
 * [Description](#description)
@@ -11,34 +11,41 @@
 * [Contact Me](#contact)
 * [License](#license)
 
-## Description 🗒️ <a name="#description"></a>
+## Description 🗒️ <a name="description"></a>
 
-its nick
+dwahdhwadhwahdwha
 
 ## Usage 🔼 <a name="usage"></a>
 
-To use undefined: something
+To use yes: nice
 
 ## Dependencies ✅ <a name="dependencies"></a>
 
-You must run npm install for undefined to work
+You must run 
+~~~
+npm install
+~~~
+ for undefined to work
 
 ## Tests ✴️ <a name="tests"></a>
 
-To run tests: npm test
+To run tests: 
+~~~
+nice
+~~~
 
 ## Contributions 👐 <a name="contributions"></a>
 
-To make contributions to undefined, something
+To make contributions to undefined, nice
 
 ## Contact Me 💌 <a name="contact"></a>
-* If you have any questions please [**email**](mailto:nick@nick.com) me
+* If you have any questions please [**email**](mailto:nick@nick) me
 * Check out more of my work on [**GitHub**](nick)
 
 # License 🌍 <a name="license"></a>
 
-MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Apache [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This project is being licensed under the MIT license: https://opensource.org/licenses/MIT
+This project is being licensed under the Apache license: https://www.apache.org/licenses/LICENSE-2.0
     
 
