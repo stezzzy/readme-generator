@@ -46,9 +46,9 @@ To make contributions to README-Generator, create a new branch and make a pull r
 * Check out more of my work on [**GitHub**](https://github.com/stezzzy)
 
 ## Live Demo *
-Click the image to view the demo video!
 
-![demo](https://user-images.githubusercontent.com/90112060/189245517-5d6ef1b8-368e-4853-a97e-19c484e1aab6.png)(https://www.youtube.com/watch?v=V-QQhrtuQJg)
+![demo](https://user-images.githubusercontent.com/90112060/189245517-5d6ef1b8-368e-4853-a97e-19c484e1aab6.png)
+(https://www.youtube.com/watch?v=V-QQhrtuQJg)
 
 
 # License 🌍
