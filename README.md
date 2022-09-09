@@ -48,7 +48,8 @@ To make contributions to README-Generator, create a new branch and make a pull r
 ## Live Demo *
 
 ![demo](https://user-images.githubusercontent.com/90112060/189245517-5d6ef1b8-368e-4853-a97e-19c484e1aab6.png)
-/n (https://www.youtube.com/watch?v=V-QQhrtuQJg)
+
+(https://www.youtube.com/watch?v=V-QQhrtuQJg)
 
 
 # License 🌍
